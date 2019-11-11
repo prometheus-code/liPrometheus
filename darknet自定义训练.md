@@ -32,7 +32,7 @@ for file in filelist:   #遍历所有文件
 ```
 &emsp;
 
-这里是已经编译好的labelimg文件，解压即可使用
+这里是已经编译好的labelimg文件，解压即可使用（注意安装路径不能有中文，否则可能闪退。）
 ```
 下载地址：链接: https://pan.baidu.com/s/1qYyZQaw#list/path=%2FLabelimg%20multi    提取码: cnn6
 ```
