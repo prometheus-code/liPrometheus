@@ -34,7 +34,7 @@ for file in filelist:   #遍历所有文件
 
 这里是已经编译好的labelimg文件，解压即可使用
 ```
-下载地址：链接: https://pan.baidu.com/s/1kwwO5VxLMpAuKFvckPpHyg    提取码: 2557
+下载地址：链接: https://pan.baidu.com/s/1qYyZQaw#list/path=%2FLabelimg%20multi    提取码: cnn6
 ```
 labelimg界面是这个样子
 ![image](https://raw.githubusercontent.com/prometheus-code/darenetcode/master/20181229151217544.png)
