@@ -42,7 +42,7 @@ labelimg界面是这个样子
 &emsp;
 标注图片
 
-- 在/date文件夹下txt文件中用记事本应用程序添加你所想要识别的目标名字
+- 在date文件夹下txt文件中用记事本应用程序添加你所想要识别的目标名字
 
   ![image]( https://raw.githubusercontent.com/prometheus-code/darenetcode/master/GIF.gif )
 
