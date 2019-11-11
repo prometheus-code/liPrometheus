@@ -7,7 +7,7 @@
 
 ## 2.自定义voc数据集
 
-1. 先在darknet下创建一个新文件夹命名为setsuna(看个人爱好，这个是我的命名)
+1. 先在darknet（你自己放darknet框架的文件夹）下创建一个新文件夹命名为setsuna(看个人爱好，这个是我的命名)
 2. 然后在setsuna文件夹里创建分别为annotations、ImageSets、JPEGImages的文件夹，并在ImageSets下新建main文件夹。
 ![image](https://raw.githubusercontent.com/prometheus-code/darenetcode/master/mmexport1573434340687.jpg)
 3. 先在网上下载标记工具labelimg，并将** 网上搜集照片 ** 放在setsuna目录下的JPEGImages文件夹中，并用name.py将它们批量重命名如000001，000002等依次递增的文件名。 
