@@ -98,7 +98,16 @@ ftest .close()
 - then，将数据集转换为darknet支持的数据格式。
 - yolov3提供了将VOC数据集转为YOLO训练所需要的格式的代码，在scripts/voc_label.py文件中。这里提供一个修改版本的。在darknet文件夹下新建一个voc_label.py文件，内容如下：
 ~~~
+import xml.etree.ElementTree as ET
+import pickle
+import os
+from os import listdir, getcwd
+from os.path import join
  
+sets=[('setsuna
+', 'train')]
+ 
+classes = ["e-bike"] # 改成自己的类别 
  
 def convert(size, box):
     dw = 1./(size[0])
@@ -240,3 +249,5 @@ darknet detector train cfg/my_data.data cfg/my_yolov3.cfg darknet53.conv.74
 参考文献：
 1.https://github.com/AlexeyAB/darknet
 2.https://mp.weixin.qq.com/s/hl_nFkw1oWm2TLpMFK2mZw
+---
+感谢各位指出文章里的漏洞(o´ω`o)
