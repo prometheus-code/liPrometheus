@@ -1,4 +1,4 @@
-# 从零开始自定义训练yolov3
+# 从零开始自定义训练yolov3（网络学习后的总结）
 ## 前言
 相信各位在经历打开摄像头成功识别物品的喜悦后，肯定会产生一个想法，我能不能也自定义一个自己的目标检测(o´ω`o)ノ。答案是肯定。接下来我来一步一步展示我的思路和方法给你们，让你们也能有一个自己的目标检测。
 ##1.思路
@@ -247,7 +247,9 @@ darknet detector train cfg/my_data.data cfg/my_yolov3.cfg darknet53.conv.74
 ![image](https://raw.githubusercontent.com/prometheus-code/liPrometheus/master/20191111174516.jpg)
 ---
 参考文献：
+
 1.https://github.com/AlexeyAB/darknet
 2.https://mp.weixin.qq.com/s/hl_nFkw1oWm2TLpMFK2mZw
+3.https://www.cnblogs.com/answerThe/p/11481564.html
 ---
 感谢各位指出文章里的漏洞(o´ω`o)
