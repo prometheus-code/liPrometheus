@@ -104,10 +104,10 @@ import os
 from os import listdir, getcwd
 from os.path import join
  
-sets=[('setsuna
-', 'train')]
+sets=[('setsuna', 'train')]
  
-classes = ["e-bike"] # 改成自己的类别 
+classes = ["electric bicycle"] # each category's name
+ 
  
 def convert(size, box):
     dw = 1./(size[0])
